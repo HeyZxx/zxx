@@ -1,0 +1,160 @@
+﻿
+<!DOCTYPE html>
+<html lang="zh-cn" class="no-js">
+	<head>
+		<meta http-equiv="Content-Type">
+		<meta content="text/html; charset=utf-8">
+		<meta charset="utf-8">
+		<title>“零”艾滋，从心开始~</title>		
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="format-detection" content="email=no">
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/animations.css" />
+		<script src="js/zepto.min.js"></script>
+		<script src="js/touch.js"></script>
+		<script src="js/index.js"></script>
+		<script type="text/javascript">
+			$("#audio").click(function(){
+ 				$(this).toggleClass("rotate"); //控制音乐图标 自转或暂停
+ 			})
+			$(function(){
+				var x = document.getElementById("media"); 
+			    $("#audio").click(function(){
+			        $(this).toggleClass("rotate"); 
+			        //控制音乐图标 自转或暂停
+			        //控制背景音乐 播放或暂停            
+			        if($(this).hasClass("rotate")){
+			            x.play();
+			        }else{
+			            x.pause();
+			        }
+			    })
+			});
+
+window.onload = function() {  
+    setTimeout(function() {  
+        // XHR to request a JS and a CSS  
+        var xhr = new XMLHttpRequest();  
+        xhr.open('GET', 'http://domain.tld/preload.js');  
+        xhr.send('');  
+        xhr = new XMLHttpRequest();  
+        xhr.open('GET', 'http://domain.tld/preload.css');  
+        xhr.send('');  
+        // preload image  
+        new Image().src = "http://domain.tld/preload.png";  
+    }, 1000);  
+};
+</script>
+	</head>
+	<body id="imgList">
+	<div>
+		<div id="audio" class="rotate" onload="click()">
+		    <audio loop src="http://www.baidu190.com/1477293387/20171032caf718aeb5f1172252bfd31c317142.mp3" id="media" autoplay="" preload=""></audio>
+		</div>
+		<div class="page page-1-1 page-current">
+			<div class="letter">
+				<img class="letter_img" src="images/p1_letter.png" alt="letter" />
+				<img class="stamp" src="images/p1_stamp.png" alt="stamp" />
+				<img class="seal" src="images/p1_seal.png" alt="seal" />
+				<img src="images/p1_daizi.png" alt="p1_daizi" class="daizi" />
+				<img src="images/p1_ling.png" alt="p1_ling" class="p1_ling" />
+				<img src="images/p1_aizi.png" alt="p1_aizi" class="p1_aizi" />
+				<img src="images/p1_cong.png" alt="p1_cong" class="p1_cong" />
+				<img src="images/p1_xin.png" alt="p1_xin" class="p1_xin" />
+				<img src="images/p1_kaishi.png" alt="p1_kaishi" class="p1_kaishi">
+				<img class="p1_bingdu p1_bingdu_big" src="images/p1_bingdu.png" />
+				<img class="p1_bingdu p1_bingdu_small" src="images/p1_bingdu.png"/>
+			</div><div id="up111"><img src="images/icon_up.png"></div>
+			<!-- adis_hiv -->
+		</div>
+		<!-- end page-1-1 -->
+		<div class="page page-2-1 hide">
+			<div style="position:relative;width:100%;height:100%;">
+			<div class="aids_hiv">
+				<img class="p1_bd" src="images/p1_bd.png" alt="p1_bd" />
+			</div>
+			<div class="p1_hiv">
+				<div class="p1_vertical"><img src="images/p1_hiv.png" /></div>
+				<img class="p1_hiv_text" src="images/p1_hiv_text.png" />
+				<div id="right_line"></div>
+			</div>
+			<!-- <canvas id="down_line"></canvas>
+			<canvas id="up_line"></canvas> -->
+			
+			<div class="p1_aids">
+				<div class="p1_vertical"><img src="images/p1_aids.png" /></div>
+				<img class="p1_aids_text" src="images/p1_aids_text.png" />
+			</div>
+			<img class="p1_ah_text" src="images/p1_ah_text.png" />
+			
+			<div class="p1_zm_group">
+				<img class="p1_zhim" src="images/p1_zhim.png" />
+				<img class="p1_mylqx" src="images/p1_mylqx.png" />
+			</div>
+			</div><div id="up111"><img src="images/icon_up.png" /></div>
+			<!-- end p1_zm_group -->
+		</div>
+		<!-- end page-1-2 -->
+		<div class="page page-3-1 hide">
+			<div class="p2_title"><img src="images/p2_title.png" /></div>
+			<div class="p2_number">
+				<div class="p2_total">
+					<img class="p2_quan" src="images/p2_total_red.png" />
+					<div class="p2_kuang"><img src="images/p2_title_wrap.png" /></div>
+					<img class="p2_black" src="images/p2_total_black.png" />
+					<div class="p3_weizhi"><img src="images/p3_weizhi.png" /></div>
+					<img class="p3_dead" src="images/p3_dead.png" />
+					<img class="p3_cunhuo" src="images/p3_cunhuo.png" />
+					<img class="p3_aids_hiv" src="images/p3_aids_hiv.png" />
+				</div>
+				<div class="p3_num"><img src="images/p3_num.png" /></div>
+				<div class="p3_table"><img src="images/p3_table.png" /></div>
+			</div><div id="up111"><img src="images/icon_up.png"></div>
+			<!-- end p2_total -->
+		</div>
+		<!-- end page-1-3 -->
+		<div class="page page-4-1 hide">
+			<div class="p5_title"><img src="images/p5_title.png" /></div>
+			<img src="images/p5_intro.png" / class="p5_intro">
+			<div class="p5_main"><img src="images/p5_main.png" /></div>
+			<div class="p5_text">
+				<img class="p5_text_1" src="images/p5_text_1.png" />
+				<img class="p5_jiantou_1 p5_jiantou" src="images/p5_jiantou.png" />
+				<img class="p5_text_2" src="images/p5_text_2.png" />
+				<img class="p5_jiantou_2 p5_jiantou" src="images/p5_jiantou.png" />
+				<img class="p5_text_3" src="images/p5_text_3.png" />
+			</div>
+			<img src="images/p5_gameover.png" / class="p5_gameover">
+			<div id="up111"><img src="images/icon_up.png"></div>
+		</div>
+		<!-- end page-1-4 -->
+		<div class="page page-5-1 hide">
+			<div id="last">
+		   <form action="http://www.spanlh.pw/aizi/zhuce.php" method="post">
+		    <img src="images/yufang.png" width="260" height="100" class="last-img1"/>
+		    <img src="images/p1_bd.png" width="122" height="122" class="last-img2"/>
+		    <p class="last-p1"><label for="name">姓 名：</label><input type="text" name="name" placeholder="请输入姓名" value="" required="required" /></p>
+		    <p class="last-p2"><label for="email">邮 箱：</label><input type="email" name="email" placeholder="请输入邮箱" value="" required="required"></p>
+		   
+		    <p class="last-p3"><label for="tel">手机号：</label><input type="tel" name="tel" placeholder="请输入手机号" value="" /></p>
+		    <p class="last-p4"><label for="yzm">验证码：</label><input type="text" name="yzm" value="" /><img src="http://www.spanlh.pw/aizi/yzm_img.php" alt="看不清楚，换一张" class="yzm" onclick="this.src=this.src+'?'"/></p>
+		    <p class="last-p5"><input type="submit" name="but" value="提交确认信息" class="but"/></p>
+		   </form>
+   
+  			</div>
+			
+		</div>
+		<!-- end page-1-5 -->
+		
+		<div class="up"></div>
+	</div>
+		<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+		<script type="text/javascript" src="js/rem.js"></script>
+		<script type="text/javascript" src="js/my2.js"></script>
+
+		  
+	</body>
+</html>
